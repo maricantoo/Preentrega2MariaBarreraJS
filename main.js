@@ -34,10 +34,6 @@ let ingreso = (prompt("Conoce el precio de los productos disponibles: camisa, pa
 ingreso = ingreso.toLowerCase();
 
 
-const existe1 = prendas.some( prenda => prenda.producto == ingreso);
-
-//const existePrecio = prendas.some( prenda => prenda.precio == ingreso);
-
 
 
  function encontrarProducto(){
